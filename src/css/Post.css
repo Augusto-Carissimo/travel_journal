@@ -1,0 +1,9 @@
+.post {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  position: relative;
+}
