@@ -1,11 +1,25 @@
 import './App.css';
-import Header from "./components/Header.js"
+import App from "./css/App.css";
+import Header from "./components/Header.js";
+import Post from "./components/Post.js";
+import data from './data.js'
+
 
 function App() {
+  const posts = data.map(data => {
+    return(
+        <Post
+          key={data.id}
+          {...data}
+        />)
+  })
   return (
-    <main>
+    <container>
       < Header />
-    </main>
+      <section className='post-list'>
+        {posts}
+      </section>
+    </container>
   );
 }
 
