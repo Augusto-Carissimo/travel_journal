@@ -1,5 +1,6 @@
-export default [
+const data = [
   {
+    id:1,
     title: "Mount Fuji",
     location: "JAPAN",
     googleMapUrl: "https://maps.app.goo.gl/ewUxrJEa2RwVaP5A9",
@@ -9,6 +10,7 @@ export default [
     imageUrl: "Rectangle 77.png"
   },
   {
+    id:2,
     title: "Sydney Opera House",
     location: "AUSTRALIA",
     googleMapUrl: "https://maps.app.goo.gl/9PeZSvqz9m5MqpVw7",
@@ -18,6 +20,7 @@ export default [
     imageUrl: "Rectangle 78.png"
   },
   {
+    id:3,
     title: "Geirangerfjord",
     location: "NORWAY",
     googleMapUrl: "https://maps.app.goo.gl/VcQL11utmsi12mdJ9",
@@ -25,5 +28,7 @@ export default [
     endDate: "18 Nov, 2021",
     description: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
     imageUrl: "Rectangle 84.png"
-  },
+  }
 ]
+
+export default data
